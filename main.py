@@ -57,7 +57,8 @@ class NodeEditor(QtWidgets.QMainWindow):
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
-    app.setWindowIcon(QtGui.QIcon("resources\\app.ico"))
+    if "__compiled__" not in globals():
+        app.setWindowIcon(QtGui.QIcon("resources\\app.ico"))
     app.setPalette(palette)
     launcher = NodeEditor()
     launcher.show()
