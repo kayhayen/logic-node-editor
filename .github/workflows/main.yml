@@ -26,9 +26,7 @@ jobs:
     
       # Check-out repository
       - uses: actions/checkout@v3
-        with:
-          repository: bhowiebkr/logic-node-editor
-
+      
       # Setup Python
       - uses: actions/setup-python@v4
         with:
