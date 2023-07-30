@@ -38,7 +38,7 @@ jobs:
           pip install -r requirements.txt
 
       # Build python script into a stand-alone exe
-      - uses: Nuitka/Nuitka-Action@main
+      - uses: Nuitka/Nuitka-Action@unification
         with:
           script-name: main.py
           access-token: ${{ secrets.NUITKA_COMMERCIAL_ACCESS_TOKEN }}
