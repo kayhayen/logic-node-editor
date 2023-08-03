@@ -47,6 +47,7 @@ jobs:
           enable-plugins: pyside6
           disable-console: true
           windows-icon-from-ico: resources/app.ico
+          unknown-option: dummy
           
       # Uploads artifact
       - name: Upload Artifacts
