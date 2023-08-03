@@ -47,9 +47,6 @@ jobs:
           enable-plugins: pyside6
           disable-console: true
           windows-icon-from-ico: resources/app.ico
-          nofollow-import-to:
-            - one
-            - two
           unknown-option: dummy
           
       # Uploads artifact
