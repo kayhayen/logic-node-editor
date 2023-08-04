@@ -44,7 +44,7 @@ jobs:
           nuitka-version: factory
           access-token: ${{ secrets.NUITKA_COMMERCIAL_ACCESS_TOKEN }}
           onefile: true
-          enable-plugins: pyside6 upx
+          enable-plugins: pyside6,upx
           disable-console: true
           windows-icon-from-ico: resources/app.ico
           unknown-option: dummy
